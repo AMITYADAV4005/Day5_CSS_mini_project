@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+}
+.main{
+    background-color: #edf2f8;   
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.left{
+    width: 35%;
+    background: linear-gradient(145deg,#0559b7,color-mix(in srgb, #0559b7, black 20%));
+    padding: 44px 36px;
+        border-radius: 20px;
+        color: white;
+        height: 550px;
+}
+
+#flash{
+    color: #ffc107;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.left h3{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    background: 
+ color-mix(in srgb, #ffffff, transparent 85%);
+ padding: 8px 18px;
+ border-radius: 20px;
+ margin-bottom: 24px;
+ width: 300px;
+}
+
+.left h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.left p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: 
+ color-mix(in srgb,white, transparent 20%);
+ margin-bottom: 32px;
+}
+
+
+.left h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: 
+ color-mix(in srgb,white, transparent 30%);
+ text-transform: uppercase;
+ margin-bottom: 16px;
+ letter-spacing: 0.5px;
+}
+
+.numbers{
+    display: flex;
+    margin-bottom: 32px;
+}
+.num{
+    background: 
+ color-mix(in srgb, white, transparent 88%);
+ border-radius: 12px;
+ padding: 14px 12px;
+ width: 70px;
+ height: 70px;
+ text-align: center;
+ margin-right: 20px;
+}
+.num h2{
+    font-size: 28px;
+}
+.num p{
+    font-size: 11px;
+    letter-spacing: 0.4px;
+}
+
+.btn{
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+        box-shadow: 0 6px 24px 
+ color-mix(in srgb, black, transparent 80%);
+ border: none;
+ color: #0559b7;
+}
+
+.btn1{
+    background-color: transparent;
+    color: white;
+    border: 2px solid
+ color-mix(in srgb, white, transparent 60%);
+ margin-left: 15px;
+}
+
+
+.btn1:hover{
+    border-color: white;
+    background: 
+ color-mix(in srgb, white, transparent 90%);
+}
+
+
+.card{
+    width: 350px;
+    border-radius: 16px;
+    border: 1px solid color-mix(in srgb, #484a4d, transparent 93%);
+    box-shadow: 0 4px 20px color-mix(in srgb, #484a4d, transparent 92%);
+    margin: 20px;
+    height: 380px;
+     /*padding-top:20px ;*/
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   
+}
+
+.icons i{
+    color: #ffc107;
+    font-size: 13px;
+}
+.icons {
+    display: flex;
+    margin-bottom: 16px;
+}
+.icons p{
+    margin-left: 10px;
+    font-size: 12px;
+    color: 
+ color-mix(in srgb, #484a4d, transparent 45%);
+}
+
+.inner-card{
+    padding: 20px;
+}
+
+.card h4{
+    font-size: 15px;
+    font-weight: 600;
+        margin-bottom: 12px;
+    line-height: 1.4;
+}
+.price #p1{
+        color: 
+ color-mix(in srgb, #484a4d, transparent 45%);
+ text-decoration: line-through;
+ font-size: 14px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.price #p2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0559b7;
+    margin-left: 10px;
+}
+
+.card button{
+    padding: 10px 20px;
+        background: 
+ color-mix(in srgb,#0559b7, transparent 90%);
+ color: #0559b7;
+ border-radius: 8px;
+ font-size: 14px;
+ font-weight: 600;
+ border: none;
+ width: 100%;
+}
+
+.right-cards{
+    display: flex;
+}
